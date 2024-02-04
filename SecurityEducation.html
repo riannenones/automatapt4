@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Practices</title>
+    <style>
+      body {
+        background-color: #eff0ee;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+      }
+
+      .title {
+        color: #113946;
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 10px;
+        margin-top: 30px;
+      }
+
+      .content {
+        color: #113946;
+        font-size: 16px;
+        text-align: justify;
+        max-width: 600px;
+        margin-bottom: 20px;
+      }
+
+      .securityTips {
+        margin-top: 20px;
+      }
+
+      .goBackLink {
+        color: #113946;
+        font-size: 16px;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Secure Your Digital Life: Email and Password Best Practices</h1>
+    <div class="content">
+      <p>
+        Welcome to our security education page. Ensuring the security of your
+        email and passwords is crucial for safeguarding your online presence.
+        Here are some key tips:
+      </p>
+
+      <div class="securityTips">
+        <h2>Email Security:</h2>
+        <ul>
+          <li>
+            Avoid clicking on suspicious links or downloading attachments from
+            unknown sources.
+          </li>
+          <li>
+            Regularly update your email password and use a combination of
+            letters, numbers, and symbols.
+          </li>
+          <li>
+            Enable two-factor authentication (2FA) for an extra layer of
+            security.
+          </li>
+          <li>
+            Be cautious about phishing attempts – verify the legitimacy of
+            emails, especially those requesting sensitive information.
+          </li>
+          <li>
+            Regularly review and update your email recovery options, such as
+            security questions or alternative email addresses.
+          </li>
+        </ul>
+      </div>
+
+      <div class="securityTips">
+        <h2>Password Security:</h2>
+        <ul>
+          <li>Use strong, unique passwords for each of your accounts.</li>
+          <li>
+            Avoid using easily guessable information such as your name,
+            birthdate, or common words.
+          </li>
+          <li>
+            Consider using a passphrase – a combination of words or a sentence
+            that is easy for you to remember but hard for others to guess.
+          </li>
+          <li>
+            Change your passwords regularly, especially if you suspect any
+            unauthorized access.
+          </li>
+          <li>
+            Utilize a reputable password manager to generate and store complex
+            passwords securely.
+          </li>
+          <li>
+            Regularly review the devices and locations where your accounts are
+            logged in and log out from unused devices.
+          </li>
+        </ul>
+      </div>
+
+      <p>
+        Remember, staying informed and implementing these practices will greatly
+        enhance the security of your online accounts. If you have any specific
+        concerns or questions, don't hesitate to seek further advice.
+      </p>
+    </div>
+
+    <div>
+      <p class="goBackLink" onclick="redirectTo('Landing.html')">Go back</p>
+    </div>
+
+    <script>
+      function redirectTo(page) {
+        window.location.href = page;
+      }
+    </script>
+  </body>
+</html>
